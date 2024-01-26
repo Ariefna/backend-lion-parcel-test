@@ -56,16 +56,16 @@ func recursive(hasil, index int) int {
 
 func main() {
 	fmt.Println("== Output Answer ==")
-	fmt.Println("== Palindrom ==")
+	fmt.Println("== 1. Palindrom ==")
 	fmt.Println(IsPalindrome("radar")) // True
 	fmt.Println(IsPalindrome("hello")) // False
-	fmt.Println("== Find value max ==")
+	fmt.Println("== 2. Find value max ==")
 	array := [5]int{3, 5, 1, 9, 2}
 	maxValue := FindMaxValue(array)
 	fmt.Println("Max:", maxValue) // 9
-	fmt.Println("== Karakter Star ==")
+	fmt.Println("== 3. Karakter Star ==")
 	MakeStar(5)
-	fmt.Println("== Faktorial ==")
+	fmt.Println("== 4. Faktorial ==")
 	resultFactorial := Factorial(5)
 	fmt.Println(resultFactorial) // karena 5! = 5 x 4 x 3 x 2 x 1 = 120
 }
